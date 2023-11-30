@@ -1,4 +1,4 @@
-# 💡 Topic
+ # 💡 Topic
 
 - **숙박 예약 서비스**
 - 회원이 서비스를 로그인하여 상품의 숙소들을 확인할 수 있으며 주문하고 싶은 상품들을 장바구니에 담을 수도 있으며 ,주문을 할 수 있도록 만든 서비스
@@ -113,7 +113,8 @@
 
 ### 요청
 ![Untitled](https://github.com/Parkgeonmoo/Traveler/assets/50697545/501aa6d7-1bb1-4256-a0ff-97825d065e10)
-### 응답![Untitled](https://github.com/Parkgeonmoo/Traveler/assets/50697545/78f54b4c-4775-4b1c-9803-ee5806952542)
+### 응답
+![Untitled](https://github.com/Parkgeonmoo/Traveler/assets/50697545/78f54b4c-4775-4b1c-9803-ee5806952542)
 
 ## 예약가능여부 조회
 
