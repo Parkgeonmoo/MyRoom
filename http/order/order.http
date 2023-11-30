@@ -1,0 +1,55 @@
+### 결제
+POST http://localhost:8080/v1/order
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJjbGllbnRfaWQiOiI1MiIsImVtYWlsIjoibXl0ZXN0MUBuYXZlci5jb20iLCJpc3MiOiJmY19taW5pIiwiaWF0IjoxNzAxMjQyMzc2LCJleHAiOjE3MDEyNzgzNzZ9.k-iDVqJs7BWGkwr7A1dT_lVSOXn1T5lXqqvfzJqoofiptkOvZ8LpC---CiILeqKkIFgCVOOIIxfkmiJqf48Dlw
+
+[
+  {
+    "accommodation_id": 1,
+    "people_number": 2,
+    "start_date": "2023-11-29",
+    "end_date": "2023-11-30",
+    "representative_name": "홍길동",
+    "representative_email": "rlfehd@naver.com",
+    "order_price": 120000,
+    "cart_id": 0
+  },
+  {
+    "accommodation_id": 2,
+    "people_number": 2,
+    "start_date": "2023-11-29",
+    "end_date": "2023-11-30",
+    "representative_name": "홍길동",
+    "representative_email": "rlfehd@naver.com",
+    "order_price": 120000,
+    "cart_id": 0
+  }
+]
+
+### 결제 - 장바구니까지 삭제
+POST http://localhost:8080/v1/order
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJjbGllbnRfaWQiOiIxIiwiZW1haWwiOiJoaUBuYXZlci5jb20iLCJpc3MiOiJmY19taW5pIiwiaWF0IjoxNzAxMjI1NjgzLCJleHAiOjE3MDEyNjE2ODN9.SH95k5nPM9PiuDz57eJJ6YNQRYaYXXyBXqtTcaPoBu4-DTJbOP-P6gEvcLHeQQy7OUY5n_3pX8y_d2Y061kTeg
+
+[
+  {
+    "accommodation_id": 21,
+    "people_number": 2,
+    "start_date": "2023-11-29",
+    "end_date": "2023-11-30",
+    "representative_name": "홍길동",
+    "representative_email": "rlfehd@naver.com",
+    "order_price": 120000,
+    "cart_id": 6
+  },
+  {
+    "accommodation_id": 22,
+    "people_number": 2,
+    "start_date": "2023-11-29",
+    "end_date": "2023-11-30",
+    "representative_name": "홍길동",
+    "representative_email": "rlfehd@naver.com",
+    "order_price": 120000,
+    "cart_id": 7
+  }
+]

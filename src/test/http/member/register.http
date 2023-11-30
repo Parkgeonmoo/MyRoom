@@ -1,0 +1,9 @@
+### 멤버 회원가입
+POST http://localhost:8080/v1/member/register
+Content-Type: application/json
+
+{
+  "email": "pgw111111@naver.com",
+  "password": "a123456",
+  "name": "박건우"
+}

@@ -1,0 +1,39 @@
+spring:
+  config:
+    import: optional:file:.env[.properties]
+  application:
+    name: fc_mini
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+  ## 프로필 설정을 바꾸시려면 아래 주석을 해제해 주시면 됩니다.
+  #profiles:
+  #  active: dev
+
+  datasource:
+    url: jdbc:mysql://${LOCAL_MYSQL_URL:localhost}:${LOCAL_MYSQL_PORT}/fc_mini?useSSL=false&useUnicode=true&allowPublicKeyRetrieval=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: ${LOCAL_MYSQL_USERNAME}
+    password: ${LOCAL_MYSQL_PASSWORD}
+
+  jpa:
+    properties:
+      format_sql: true
+      dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: validate
+  data:
+    redis:
+      host: localhost
+      port: ${LOCAL_REDIS_PORT}
+    web:
+      pageable:
+        one-indexed-parameters: true
+
+service:
+  jwt:
+    secret-key: ${JWT_SECRET_KEY}
+    access-expiration: ${JWT_ACCESS_EXPIRATION}
+    refresh-expiration: ${JWT_REFRESH_EXPIRATION}
+
+open-api:
+  key: ${PORTAL_API_KEY}

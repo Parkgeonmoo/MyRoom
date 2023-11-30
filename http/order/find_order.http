@@ -1,0 +1,8 @@
+### 예약내역 확인
+GET http://localhost:8080/v1/order/me
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJjbGllbnRfaWQiOiI1MiIsImVtYWlsIjoibXl0ZXN0MUBuYXZlci5jb20iLCJpc3MiOiJmY19taW5pIiwiaWF0IjoxNzAxMjQyMzc2LCJleHAiOjE3MDEyNzgzNzZ9.k-iDVqJs7BWGkwr7A1dT_lVSOXn1T5lXqqvfzJqoofiptkOvZ8LpC---CiILeqKkIFgCVOOIIxfkmiJqf48Dlw
+
+{
+
+}

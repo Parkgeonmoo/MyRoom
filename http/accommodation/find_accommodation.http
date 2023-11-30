@@ -1,0 +1,6 @@
+###상세조회 요청
+GET http://localhost:8080/v1/accommodations/50
+Content-Type: application/json
+
+{
+}

@@ -1,0 +1,15 @@
+### 장바구니 등록
+POST http://localhost:8080/v1/cart
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJjbGllbnRfaWQiOiIxIiwiZW1haWwiOiJwZ3cxMTExMTFAbmF2ZXIuY29tIiwiaXNzIjoiZmNfbWluaSIsImlhdCI6MTcwMTMzNTc2NCwiZXhwIjoxNzAxMzcxNzY0fQ.78xOhIvRuhXeJWlL6qM58rbodeUjtAUU1aYMypbV_Sldx3bhwYfkwK1QIoJ9HlNzVdG0N3jHS01QeqXujgRr2g
+
+{
+    "accommodation_id": 22,
+    "name": "박건우",
+    "address": "경기도 의정부시 장곡로 240",
+    "start_date": "2023-11-29",
+    "end_date": "2023-11-30",
+    "people": 1,
+    "cart_price": 130000,
+    "accommodation_img": "https://www.naver.com/index?=64.jpg"
+}

@@ -1,0 +1,6 @@
+###전체조회 요청
+GET http://localhost:8080/v1/accommodations?location=1&size=8&page=0
+Content-Type: application/json
+
+{
+}

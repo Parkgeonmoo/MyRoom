@@ -1,0 +1,2 @@
+### 멤버 회원가입 이메일 체크
+GET http://localhost:8080/v1/member/register/check?email=test@test.com

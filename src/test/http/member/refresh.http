@@ -1,0 +1,8 @@
+### 멤버 액세스 토큰 리프레시
+POST http://localhost:8080/v1/member/refresh
+Authorization: Bearer <put-access-token>
+Content-Type: application/json
+
+{
+  "refresh_token": "<put-refresh-token>"
+}

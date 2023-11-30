@@ -1,0 +1,7 @@
+### 예약가능여부 확인
+GET http://localhost:8080/v1/order/check?accommodation_id=1&start_date=2023-12-01&end_date=2023-12-02
+Content-Type: application/json
+
+{
+
+}
