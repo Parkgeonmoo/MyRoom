@@ -104,3 +104,136 @@
     
 
 # 📷 Screenshot
+
+# 주문
+
+## 결제
+
+---
+
+### 요청
+![Untitled](https://github.com/Parkgeonmoo/Traveler/assets/50697545/501aa6d7-1bb1-4256-a0ff-97825d065e10)
+### 응답![Untitled](https://github.com/Parkgeonmoo/Traveler/assets/50697545/78f54b4c-4775-4b1c-9803-ee5806952542)
+
+## 예약가능여부 조회
+
+---
+
+### 요청
+![Untitled](https://github.com/Parkgeonmoo/Traveler/assets/50697545/ef1aa809-f3cf-48de-b2ed-118fcb3aa396)
+### 응답
+![Untitled](https://github.com/Parkgeonmoo/Traveler/assets/50697545/186c7274-9913-48f7-948f-43ecb55f7d1c)
+
+## 나의 예약내역 조회
+
+---
+
+### 요청
+![Untitled (1)](https://github.com/Parkgeonmoo/Traveler/assets/50697545/2a72bed7-dca1-4507-99fb-12f2956dca16)
+### 응답![Untitled](https://github.com/Parkgeonmoo/Traveler/assets/50697545/f4ff5545-6e04-460c-b535-173742bb685c)
+![Untitled (1)](https://github.com/Parkgeonmoo/Traveler/assets/50697545/3f6b3054-3774-45cc-8e8b-ae72524b522c)
+![Untitled (2)](https://github.com/Parkgeonmoo/Traveler/assets/50697545/b5ca612c-386f-47ac-ad82-3f0587f437bc)
+# 숙박
+
+## 개별 상품 조회
+
+---
+
+### 요청
+![Untitled](https://github.com/Parkgeonmoo/Traveler/assets/50697545/010dfaca-1be2-4bd1-bee2-21816b486510)
+### 응답
+![Untitled (1)](https://github.com/Parkgeonmoo/Traveler/assets/50697545/71d10c6d-f802-487f-9f9c-f07691e06b7c)
+
+## 전체 상품 조회
+
+---
+
+### 요청
+![Untitled](https://github.com/Parkgeonmoo/Traveler/assets/50697545/1f84cf6a-6f0a-46cc-ab98-d7d7de6fe019)
+### 응답
+![Untitled](https://github.com/Parkgeonmoo/Traveler/assets/50697545/c471ab4e-20f9-4e60-b5a4-1918c50ae060)
+
+# 장바구니
+
+## 장바구니 저장
+
+---
+
+### 요청
+![장바구니 저장 본문 PNG](https://github.com/Parkgeonmoo/Traveler/assets/50697545/4952d344-302f-4a20-b0d3-159c4dea06f5)
+### 응답
+![장바구니 저장 응답 PNG](https://github.com/Parkgeonmoo/Traveler/assets/50697545/85b072f5-3adf-499e-bed3-4f86887d9838)
+
+## 장바구니 조회
+
+---
+
+### 요청
+![장바구니 조회 본문 PNG](https://github.com/Parkgeonmoo/Traveler/assets/50697545/af2ae36f-9ac1-451e-aa6a-d2ffee681769)
+
+
+### 응답
+![장바구니 조회 응답 PNG](https://github.com/Parkgeonmoo/Traveler/assets/50697545/f67f083e-866b-4844-b7fa-600412383c6f)
+
+## 장바구니 삭제
+
+---
+
+### 요청
+![장바구니 삭제 본문 PNG](https://github.com/Parkgeonmoo/Traveler/assets/50697545/27bb79eb-ffef-49b8-a222-f540be4f2eca)
+
+### 응답
+![장바구니 삭제 응답 PNG](https://github.com/Parkgeonmoo/Traveler/assets/50697545/b86e9f60-2a10-4100-baee-9134a2ac2485)
+
+# 멤버
+
+## 회원가입
+
+---
+
+### 요청
+![Untitled](https://github.com/Parkgeonmoo/Traveler/assets/50697545/ca864109-c26c-41a9-a6a0-27f44ceb91ee)
+### 응답
+![Untitled](https://github.com/Parkgeonmoo/Traveler/assets/50697545/273df28b-3749-4f3a-8508-c1a92442e93d)
+
+## 회원가입 이메일 체크
+
+---
+
+### 요청
+![Untitled](https://github.com/Parkgeonmoo/Traveler/assets/50697545/a06194b9-c694-4ec8-b32f-86219ef318a8)
+
+### 응답
+![Untitled (1)](https://github.com/Parkgeonmoo/Traveler/assets/50697545/f728b710-9e93-449a-b708-b7d3b71632fe)
+
+## 로그인
+
+---
+
+### 요청
+
+![Untitled](https://github.com/Parkgeonmoo/Traveler/assets/50697545/23bec62d-a671-41d6-b5af-448d2a54ddcb)
+
+### 응답
+![Untitled](https://github.com/Parkgeonmoo/Traveler/assets/50697545/135937ba-7c72-49e3-ad5a-78c96b82f244)
+
+## 로그아웃
+
+---
+
+### 요청
+![Untitled](https://github.com/Parkgeonmoo/Traveler/assets/50697545/84a80f1d-68e6-4b1d-b7ba-225e23a65405)
+
+### 응답
+![Untitled](https://github.com/Parkgeonmoo/Traveler/assets/50697545/3f92b804-6ea8-4448-bde0-b9715a112be0)
+
+## 액세스 토큰 리프레시
+
+---
+
+### 요청
+![Untitled](https://github.com/Parkgeonmoo/Traveler/assets/50697545/473c9a21-d824-4664-96c4-f41e1a8e6d9b)
+
+### 응답
+
+![Untitled](https://github.com/Parkgeonmoo/Traveler/assets/50697545/63b9d029-5bf0-457c-be62-26478a04da59)
