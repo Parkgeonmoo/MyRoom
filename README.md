@@ -109,6 +109,11 @@
 
 # 📷 Screenshot
 
+# 실행 영상
+https://github.com/Parkgeonmoo/Traveler/assets/50697545/b05c0ea8-50b6-4530-b659-39105759c1c4
+
+
+
 # 주문
 
 ## 결제
