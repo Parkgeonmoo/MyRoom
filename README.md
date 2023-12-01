@@ -96,15 +96,15 @@
     
  ## ⚙ API 문서
     
-    ### Swagger
+  ### Swagger
     
-    API 문서는 **[실제 구동 테스트 서버](http://api.gamsung.xyz/swagger-ui/index.html)**에서 확인해 볼 수 있다.
+  API 문서는 **[실제 구동 테스트 서버](http://api.gamsung.xyz/swagger-ui/index.html)**에서 확인해 볼 수 있다.
     
-    또는 프로젝트를 다운로드 받은 후 서버를 구동한 뒤, 다음 링크의 Swagger UI에서도 확인해 볼 수 있다.
+  또는 프로젝트를 다운로드 받은 후 서버를 구동한 뒤, 다음 링크의 Swagger UI에서도 확인해 볼 수 있다.
     
-    ```java
-    http://localhost:8080/swagger-ui/index.html
-    ```
+   ```java
+   http://localhost:8080/swagger-ui/index.html
+   ```
     
 
 # 📷 Screenshot
