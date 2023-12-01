@@ -113,5 +113,7 @@
 https://github.com/Parkgeonmoo/Traveler/assets/50697545/b05c0ea8-50b6-4530-b659-39105759c1c4
 
 # API 응답 스크린샷
-https://www.notion.so/geonmoo/API-cafe1d5fd1ae4d189b259463c0d6a105
+
+**[API 응답 스크린샷](https://www.notion.so/geonmoo/API-cafe1d5fd1ae4d189b259463c0d6a105)**
+
 
