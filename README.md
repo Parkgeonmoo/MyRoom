@@ -59,41 +59,6 @@
 - 통합 테스트 코드 작성을 진행하면서 의존성 및 모의 객체 사용에 대해 이해할 수 있었다.
 - QueryDSL을 사용하면서 JPA만으로 조인이 많이 발생하는 부분에 대한 쿼리 작성 어려움을 해결할 수 있게 되었다.
 
-
-# 🔌 프로젝트 실행방법
-
-- **`.env` 파일을 만들어야 한다.**
-- env 파일은 다음 [env 예제 파일(`.env.example`](https://github.com/Parkgeonmoo/Traveler/blob/main/.env.example)[)](https://github.com/FAST-gamsungcoding/BE_MiniProject/blob/docs/readme/.env.example)의 형식을 참고
-    
-    ```
-    # MYSQL 설정
-    # !주의: USERNAME에 root를 입력하시면 안된다. root 외의 다른 이름을 입력.
-    LOCAL_MYSQL_USERNAME=<MySQL의 DB username>
-    LOCAL_MYSQL_PASSWORD=<MySQL의 DB password>
-    LOCAL_MYSQL_VOLUME_PATH=./bin/mysql # MySQL 데이터를 저장할 본인 컴퓨터 경로
-    LOCAL_MYSQL_URL=localhost # 컴퓨터에서 사용할 MySQL URL
-    LOCAL_MYSQL_PORT=3306 # 컴퓨터에서 사용할 MySQL PORT
-    
-    # JWT 설정
-    JWT_SECRET_KEY=<your-jwt-secret-key> # BASE64로 인코딩된 JWT 시크릿 키
-    JWT_ACCESS_EXPIRATION=36000000 # 액세스 토큰의 만료시간 (기본 1시간)
-    JWT_REFRESH_EXPIRATION=864000000 # 리프레시 토큰의 만료시간 (기본 24시간)
-    
-    # Redis 설정
-    LOCAL_REDIS_VOLUME_PATH=./bin/redis # REDIS 데이터를 저장할 본인 컴퓨터 경로
-    LOCAL_REDIS_PORT=6379 # 컴퓨터에서 사용할 REDIS PORT
-    
-    # Open API Key 설정
-    PORTAL_API_KEY=<your-open-api-key> # 개인의 Open API key (/v1/accommodation/data 호출시에만 필요)
-    ```
-    
-- **docker compose를 사용하여 mysql과 redis 데이터베이스 환경을 만들어야 한다.**
-    - 인텔리제이의 docker plugin 기능을 사용하거나, 다음 명령어를 입력해서 데이터베이스 환경을 구성하면 된다.
-    
-    ```java
-    docker compose up
-    ```
-    
  ## ⚙ API 문서
     
   ### Swagger
