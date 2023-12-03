@@ -66,15 +66,10 @@
   API 문서는 [실제 구동 테스트 서버](http://api.gamsung.xyz/swagger-ui/index.html)에서 확인해 볼 수 있다.
     
 
-  
 
 # 📷 Screenshot
 
 # 실행 영상
 https://github.com/Parkgeonmoo/Traveler/assets/50697545/b05c0ea8-50b6-4530-b659-39105759c1c4
-
-# API 응답 스크린샷
-
-- **[API 응답 스크린샷](https://www.notion.so/geonmoo/API-cafe1d5fd1ae4d189b259463c0d6a105)**
 
 
