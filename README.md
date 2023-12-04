@@ -29,10 +29,6 @@
 
 `JAVA`,`Spring Boot`,`Spring Security`,`Docker`,`MySQL`, `Github`,`Git`,`Slack`,`Redis`
 
-# ⚙️ Architecture
-
-`Domain Design Architecture`
-
 # 🧑🏻‍💻 Team
 
 - 백엔드 개발자 4명,프론트 개발자 5명
