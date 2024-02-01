@@ -56,9 +56,9 @@
 
  # ⚙ API 문서
     
-  ### Swagger
+  ### [Swagger](http://api.gamsung.xyz/swagger-ui/index.html)
     
-  API 문서는 [실제 구동 테스트 서버](http://api.gamsung.xyz/swagger-ui/index.html)에서 확인해 볼 수 있다.
+  : Swagger를 이용한 API 문서 작업
     
 
 
