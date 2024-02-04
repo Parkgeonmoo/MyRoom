@@ -27,7 +27,7 @@
 
 # 🛠 Tech Stack
 
-`JAVA`,`Spring Boot`,`Spring Security`,`Docker`,`MySQL`, `Github`,`Git`,`Slack`,`Redis`
+`JAVA 17`,`Spring Boot 3.1.2`,`Spring Security`,`Docker`,`MySQL`, `Github`,`Git`,`Slack`,`Redis`
 
 # 🧑🏻‍💻 Team
 
