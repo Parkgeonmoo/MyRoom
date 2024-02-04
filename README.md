@@ -1,3 +1,7 @@
+<div align="center">
+  <img width="500" alt="image" src="https://github.com/Parkgeonmoo/Traveler/assets/50697545/94e614bb-efa9-47d1-a6c7-3ebb5401f049">
+</div>
+
  # 💡 Topic
 
 - **숙박 예약 플랫폼 서비스 API 서버 개발**
